@@ -1,0 +1,46 @@
+.menu {
+  background-color: lightskyblue;
+
+  border-style: ridge;
+
+}
+
+.App {
+  display: flex;
+  height: 105vh;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.contenido {
+  background-color: green;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enlaces {
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  width: 60%;
+  height: 40px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-style: ridge;
+
+
+}
+
+.tarjetas {
+  height: 80%;
+  display: flex;
+  width: 15cm;
+  justify-content: space-between;
+  background-color: blue;
+  margin-top: 60px;
+}
