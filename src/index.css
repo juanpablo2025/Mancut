@@ -1,8 +1,13 @@
 .menu {
-  background-color: lightskyblue;
-
+  background-color: rgb(145, 166, 179);
+  width:100%;
   border-style: ridge;
 
+}
+.menu a{
+  width:100%;
+  text-decoration: none;
+  color: black;
 }
 
 .App {
@@ -41,6 +46,5 @@
   display: flex;
   width: 10cm;
   justify-content: space-between;
-  background-color: blue;
   margin-top: 60px;
 }

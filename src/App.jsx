@@ -1,39 +1,32 @@
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
-import Menu from "./components/menu"
-
-
-
-
-
-
-
-
-import Barbero from "./components/contenidoBarbero"
-import Cliente from "./components/contenidoCliente"
-import Producto from "./components/contenidoProducto"
+import Contenido from "./components/contenido"
+import Barbero from "./components/Barbero"
+import Cliente from "./components/Cliente"
+import Producto from "./components/Producto"
 
 
 
-// const router = createdBrowserRouter([
+const router = createBrowserRouter([
 
-//   {
-//     path: '/',
-//     element: <Contenido />
-//   },
-//   {
-//     path: '/ContenidoBarbero',
-//     element: <Barbero />
-//   },
-//   {
-//     path: '/ContenidoAgregarCliente',
-//     element: <Cliente />
-//   },
-//   {
-//     path: '/ContenidoAgregarCliente',
-//     element: <Producto />
-//   },
+  {
+    path: '/',
+    element: <Contenido />
+  },
+  {
+    path: '/ContenidoBarbero',
+    element: <Barbero />
+  },
+  {
+    path: '/ContenidoAgregarCliente',
+    element: <Cliente />
+  },
+  {
+    path: '/ContenidoAgregarProducto',
+    element: <Producto />
+  },
 
-// ])
+])
 
 
 
@@ -41,17 +34,9 @@ function App() {
 
 
   return (
-    <div className="App">
-      <Menu />
-      <Barbero />
-
-      <Cliente />
-      <Producto />
-
-      {/* <RouterProvider router={router} /> */}
-
-    </div>
+    <RouterProvider router={router} /> 
   )
+  
 }
 
 export default App

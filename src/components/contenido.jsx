@@ -1,24 +1,19 @@
 
-import Barbero from "../components/AgregarBarbero.jsx"
-import Cliente from "../components/AgregarCliente.jsx"
-
-import Producto from "../components/AgregarProducto.jsx"
-
-
-
+import Menu from "./Menu2.jsx"
 
 
 const Contenido = () => {
 
-
-
     return (
-        <div className="content">
+    <div className="App">
 
 
-            <Barbero />
-            <Cliente />
-            <Producto />
+    
+        <div className="contenido">
+            <Menu/>
+            <h1>BIENVENIDO</h1>
+        </div>
+
         </div>
     )
 }

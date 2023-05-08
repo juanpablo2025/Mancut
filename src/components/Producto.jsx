@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Menu from './Menu2';
 
 
 
@@ -14,9 +15,9 @@ const Producto = () => {
 
 	return (
 		<section>
-
+			<Menu/>
 			<h1>Productos</h1>
-			<section className='cajaProductos'>
+			<section className='tarjetas'>
 				<form onSubmit={handleAddProduct}>
 					<label htmlFor='nuevoProducto'>Agregar producto:</label>
 					<input
@@ -27,7 +28,7 @@ const Producto = () => {
 					<button type='submit'>Agregar</button>
 				</form>
 			</section>
-			<section className='seccionProductos'>
+			<section className='tarjetas'>
 				{listaProductos.map((producto, index) => (
 					<section key={index}>
 						<h3>{producto}</h3>

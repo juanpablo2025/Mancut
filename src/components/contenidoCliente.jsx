@@ -3,6 +3,7 @@ import Cliente from "./Cliente.jsx"
 
 
 
+import Menu from "./Menu2.jsx"
 
 
 
@@ -12,9 +13,11 @@ const ContenidoCliente = () => {
 
 
 	return (
-		<div >
 
+		<div className="App">
+		
 
+			<Menu/>
 			<Cliente />
 
 

@@ -4,6 +4,7 @@ import Barbero from "./Barbero.jsx"
 
 
 
+import Menu from "./Menu2.jsx"
 
 
 const ContenidoBarbero = () => {
@@ -11,13 +12,16 @@ const ContenidoBarbero = () => {
 
 
     return (
-        <div >
 
+        <div className="App">
+        <div >
+            <Menu/>
             <Barbero />
 
 
-
         </div>
+        </div>
+
     )
 }
 
