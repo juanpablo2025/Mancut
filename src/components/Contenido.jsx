@@ -1,17 +1,23 @@
 
 
 
+import Menu from "./Menu2.jsx"
+
+
 const Contenido = () => {
 
-	return (
-		<section className="contenido">
+    return (
+        <div >
 
 
-			<a >aaaaaaaaaaaa</a>
 
 
-		</section>
-	)
+            <Menu />
+
+
+
+        </div>
+    )
 }
 
 export default Contenido;
